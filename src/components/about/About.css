@@ -1,0 +1,69 @@
+.about_box {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  margin: 5em;
+  max-width: 90%;
+  background-color: rgba(0, 0, 0, 0.781);
+}
+.pic_box {
+  background-color: beige;
+  margin-top: 1%;
+  border-radius: 1em;
+  max-width: 10em;
+  border-color: transparent;
+}
+img {
+  width: 10em;
+  height: 10rem;
+  border-color: transparent;
+  border-radius: 4em;
+}
+.info_box {
+  margin: 1em;
+  background-color: rgba(0, 0, 0, 0.781);
+  max-width: 40em;
+  padding: 0em;
+  border-radius: 1em;
+  border-color: transparent;
+}
+h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: "Ubuntu", sans-serif;
+  padding: 5% 5%;
+  color: antiquewhite;
+}
+@media screen and (max-width: 960px) {
+  .about_box {
+    margin-left: 5px;
+    margin-right: 3px;
+    align-self: center;
+    min-width: fit-content;
+    min-height: fit-content;
+  }
+
+  .info_box {
+    min-width: 15em;
+    padding: 1em;
+    border-radius: 1em;
+    min-height: fit-content;
+  }
+
+  h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-family: "Ubuntu", sans-serif;
+    padding: 3% 3%;
+  }
+
+  img {
+    width: 3.5em;
+    height: 3.5rem;
+    border-color: transparent;
+    border-radius: 4em;
+  }
+}

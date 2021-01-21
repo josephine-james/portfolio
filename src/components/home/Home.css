@@ -1,0 +1,86 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.home_title {
+  opacity: 1;
+  font-family: "Cinzel", serif;
+  flex-grow: 1;
+  font-size: 3.5em;
+  color: white;
+  font-weight: 5000;
+}
+.home_subtitle {
+  justify-content: center;
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  flex-grow: 1;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 5000;
+}
+.dabba {
+  background-color: rgba(0, 0, 0, 0.507);
+  padding-top: 4%;
+}
+.biggerdabba {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .dabba {
+    padding-top: 1em;
+    margin: 1em;
+    min-width: auto;
+  }
+  .home_subtitle {
+    justify-content: space-around;
+    flex-grow: 1;
+    padding-top: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 1em;
+  }
+  .home_title {
+    opacity: 1;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: "Cinzel", serif;
+    flex-grow: 1;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 5000;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .dabba {
+    padding-top: 1em;
+    margin: 1em;
+    min-width: auto;
+    min-height: 3px;
+  }
+  .home_subtitle {
+    justify-content: space-around;
+    flex-grow: 1;
+    padding-top: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 1em;
+  }
+  .home_title {
+    opacity: 1;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: "Cinzel", serif;
+    flex-grow: 1;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 5000;
+  }
+}

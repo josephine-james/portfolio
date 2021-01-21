@@ -1,0 +1,32 @@
+.contact-box {
+  padding-bottom: 5%;
+  padding-top: 5%;
+  align-content: space-around;
+  margin: 5em;
+  max-width: 90%;
+  background-color: rgba(0, 0, 0, 0.781);
+}
+li {
+  list-style-type: none;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: center;
+  color: antiquewhite;
+  display: inline;
+}
+@media screen and (max-width: 960px) {
+  .contact-box {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 1em;
+    max-width: 90%;
+  }
+  li {
+    display: list-item;
+    padding-top: 1em;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
