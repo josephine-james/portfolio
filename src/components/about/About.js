@@ -10,7 +10,7 @@ const About = () => {
       <Box className="about_box" display="flex" justifyContent="center">
         <img
           className="profile_pic"
-          src="/images/smallprofile.jpeg"
+          src="./images/smallprofile.jpeg"
           alt="profilepicture"
         />
 

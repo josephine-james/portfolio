@@ -5,7 +5,12 @@ function CardItem(props) {
   return (
     <>
       <div className="cards_items">
-        <a className="cards_item_link" href={props.path} target="_blank">
+        <a
+          className="cards_item_link"
+          href={props.path}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <figure className="cards_item_pic-wrap" data-category={props.label}>
             <img className="cards_item_img" src={props.src} alt="img" />
           </figure>

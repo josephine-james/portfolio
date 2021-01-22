@@ -13,7 +13,7 @@ const defaultProps = {
 const Home = () => {
   return (
     <div id="/home">
-      <video src="/videos/video.mp4" autoPlay muted loop />
+      <video src="./videos/video.mp4" autoPlay muted loop />
       <Box className="biggerdabba" display="flex" justifyContent="center">
         <Box className="dabba" borderRadius={16} {...defaultProps}>
           <center>
